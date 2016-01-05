@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         adatbazisadapter = new AdatbazisAdapter(this);
         adatbazisadapter = adatbazisadapter.open();
 
-        login = (Button)findViewById(R.id.login);
+        login = (Button)findViewById(R.id.login); // bejelentkezés
         username = (EditText) findViewById(R.id.userinput);
         password = (EditText) findViewById(R.id.passinput);
         login.setOnClickListener(new View.OnClickListener() {
